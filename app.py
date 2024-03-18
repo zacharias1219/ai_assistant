@@ -55,9 +55,9 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro-vision-latest",
 
 
 
-st.set_page_config(page_title="Vital Image Analysis", layout = "wide")
+st.set_page_config(page_title="Vital Image Analysis")
 
-st.image("https://www.vital.ai/wp-content/uploads/2021/07/Vital-Logo-Color-1.png", width=200)
+st.image("medical_logo.png", width=75)
 
 st.title("Vital Image Analysis")
 
